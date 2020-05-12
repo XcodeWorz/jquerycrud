@@ -20,7 +20,7 @@ $(document).ready(function(){
         }
                      $.ajax({
                      	    type:incidentForm.attr("method"),
-                     	    url:"https://jsonplaceholder.typicode.com/posts",
+                     	    url:"https://cors-anywhere.herokuapp.com/https://jsonplaceholder.typicode.com/posts",
                      	    contentType: "application/json",
                      	    data: JSON.stringify(incidentData),
                      	    dateType:"json",
